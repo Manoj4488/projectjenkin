@@ -15,5 +15,9 @@ public class ContactsTest {
 	public void deletecontactTest() {
 		System.out.println("contact deleted");
 	}
+	@Test(groups="SmokeTest")
+	public void addcontactTest() {
+		System.out.println("contact added pollscm");
+	}
 
 }
