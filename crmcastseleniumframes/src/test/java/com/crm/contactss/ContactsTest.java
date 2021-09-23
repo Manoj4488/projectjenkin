@@ -22,13 +22,13 @@ public class ContactsTest {
 		}
 	@Test(groups="SmokeTest")
 	public void parametersTest() {
-		String bw=System.getProperty("browser");
-		String urll=System.getProperty("url");
-		String envv=System.getProperty("env");
+		String BROWSER=System.getProperty("browser");
+		String URL=System.getProperty("url");
+		String ENV=System.getProperty("env");
 		
-		System.out.println("browser======"+bw);
-		System.out.println("url======"+urll);
-		System.out.println("env======"+envv);
+		System.out.println("browser======"+BROWSER);
+		System.out.println("url======"+URL);
+		System.out.println("env======"+ENV);
 		
 		}
       
